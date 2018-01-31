@@ -1,0 +1,10 @@
+C:\Users\jhon.rocha\Documents\GitHub\courses\dotnet\csharp 1\OlaMundo\OlaMundo\bin\Debug\OlaMundo.exe.config
+C:\Users\jhon.rocha\Documents\GitHub\courses\dotnet\csharp 1\OlaMundo\OlaMundo\bin\Debug\OlaMundo.exe
+C:\Users\jhon.rocha\Documents\GitHub\courses\dotnet\csharp 1\OlaMundo\OlaMundo\bin\Debug\OlaMundo.pdb
+C:\Users\jhon.rocha\Documents\GitHub\courses\dotnet\csharp 1\OlaMundo\OlaMundo\obj\Debug\OlaMundo.csprojResolveAssemblyReference.cache
+C:\Users\jhon.rocha\Documents\GitHub\courses\dotnet\csharp 1\OlaMundo\OlaMundo\obj\Debug\OlaMundo.Form1.resources
+C:\Users\jhon.rocha\Documents\GitHub\courses\dotnet\csharp 1\OlaMundo\OlaMundo\obj\Debug\OlaMundo.Properties.Resources.resources
+C:\Users\jhon.rocha\Documents\GitHub\courses\dotnet\csharp 1\OlaMundo\OlaMundo\obj\Debug\OlaMundo.csproj.GenerateResource.Cache
+C:\Users\jhon.rocha\Documents\GitHub\courses\dotnet\csharp 1\OlaMundo\OlaMundo\obj\Debug\OlaMundo.csproj.CoreCompileInputs.cache
+C:\Users\jhon.rocha\Documents\GitHub\courses\dotnet\csharp 1\OlaMundo\OlaMundo\obj\Debug\OlaMundo.exe
+C:\Users\jhon.rocha\Documents\GitHub\courses\dotnet\csharp 1\OlaMundo\OlaMundo\obj\Debug\OlaMundo.pdb
