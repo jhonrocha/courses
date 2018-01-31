@@ -61,17 +61,34 @@ namespace CaixaEletronico
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Conta umaConta = new Conta();
-            umaConta.numero = 1;
-            umaConta.titular = "Joaquim José";
-            umaConta.saldo = 2000.00;
+            Conta guilherme = new Conta();
+            Conta mauricio = new Conta();
 
-            Conta outraConta = new Conta();
-            outraConta.numero = 2;
-            outraConta.titular = "Silva Xavier";
-            outraConta.saldo = 1500.0;
+            guilherme.saldo = 1500.0;
+            mauricio.saldo = 2000.0;
 
-            MessageBox.Show("O titular da conta 1 é: " + umaConta.titular);
+            guilherme.Transfere(200.0, mauricio);
+
+            MessageBox.Show("O saldo de Guilherme é : " + guilherme.saldo);
+            MessageBox.Show("O saldo de Mauricio é : " + mauricio.saldo);
+
+
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Conta conta = new Conta();
+            Cliente cliente = new Cliente();
+
+            conta.cliente = cliente;
+
+            cliente.nome = "Victor";
+            cliente.rg = "123456789";
+
+            MessageBox.Show(conta.cliente.nome);
+            MessageBox.Show(conta.cliente.rg);
+
         }
     }
 }
