@@ -12,14 +12,16 @@ namespace CaixaEletronico
 
         public double saldo;
 
-        public Cliente cliente;
+        public Cliente titular;
 
-        public void Saca(double valor)
+        public bool Saca(double valor)
         {
-            if ((valor > 0) && (valor <= this.saldo))
-            {
+            if ((valor > 0) && (valor <= this.saldo) && (this.titular.EhMaiorDeIdade() || (valor < 200.0)))
+            { 
                 this.saldo -= valor;
+                return true;
             }
+            return false;
         }
 
         public void Deposita(double valor)
