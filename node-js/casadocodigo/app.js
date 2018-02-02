@@ -1,10 +1,10 @@
 // Imports
-var express = require('express');
-// Initializing Express
-var app = express();
+var configura = require('./config/express');
 
-// Defining View Engine
-app.set('view engine','ejs');
+// Initializing Express
+var app = configura();
+
+
 
 // GET: produtos/
 app.get('/produtos', function(req, res){
